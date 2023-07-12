@@ -1,0 +1,31 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Magic",
+        "description": "Cast spells. Made by Renegades. RP",
+		"uuid": "d0067061-1355-4311-bae9-6c96756ff4d3",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 0]
+	},
+	"metadata": {
+		"authors": ["renegades"]
+	},
+	"modules": [
+		{
+			"description": "Magic RP",
+			"type": "resources",
+			"uuid": "62a7eefb-37c2-4fce-89d1-1cd8e35ebd2f",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+        {
+            "uuid": "e5136364-3fc1-45ad-83ad-8c347a96ae17",
+            "version": [1,0,0]
+        },
+		{
+            "uuid": "16f23ac2-7b7e-4bf7-b74f-2a708e8c7da7",
+            "version": [1,0,0]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "namespace": "magic",
+    "magic_choose@common.scrolling_panel": {
+        "anchor_to": "top_left",
+        "anchor_from": "top_left",
+        "$show_background": true,
+        "size": [ "100%", "100%" ],
+        "$scrolling_content": "server_form.long_form_scrolling_content",
+        "$scroll_size": [ 5, "100%" ],
+        "$scrolling_pane_size": [ "100%", "100%" ],
+        "$scrolling_pane_offset": [ 0, 0 ],
+        "$scroll_bar_right_padding_size": [ 0, 0 ],
+        "$scroll_background_image_control": "server_form.bgimg",
+        "bindings": [
+            {
+                  "binding_type": "global",
+                  "binding_name": "#title_text"
+            },
+            {
+                "binding_type": "view",
+                "source_property_name": "(#title_text = Choose)",
+                "target_property_name": "#visible"
+            }
+        ]
+    },
+    "crystal_ball_top": {
+        "type": "panel",
+        "size": [ "100%", "50%" ],
+        "anchor_to": "top_left",
+        "anchor_from": "top_left",
+        "controls": [
+              { 
+                    "crafting_panel@crafting.crafting_panel_2x2": {}
+              }
+        ],
+        "bindings": [
+              {
+                    "binding_name": "#crafting_label_text"
+              },
+              {
+                    "binding_type": "view",
+                    "source_control_name": "test_element",
+                    "source_property_name": "(#crafting_label_text = magic:ball)",
+                    "target_property_name": "#visible"
+              }
+        ]
+  }
+}
