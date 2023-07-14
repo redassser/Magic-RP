@@ -4,6 +4,9 @@
 	"texture_data": {
 		"wood_wand": {
 			"textures": "textures/items/wood_wand"
+		},
+		"plastic_wand": {
+			"textures": "textures/items/plastic_wand"
 		}
 	}
 }
