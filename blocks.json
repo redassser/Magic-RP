@@ -1,0 +1,18 @@
+{
+    "format_version": "1.19.30",
+    "magic:crystal_ball": {
+        "textures": {
+            "up": "crystal_ball", 
+            "down": "crystal_ball", 
+            "north": "crystal_ball", 
+            "south": "crystal_ball", 
+            "east": "crystal_ball", 
+            "west": "crystal_ball",
+            "crystal_ball": "crystal_ball"
+        },
+        "carried_textures": "crystal_ball",
+        "isotropic": true, 
+        "brightness_gamma": 5, 
+        "sound": "glass" 
+    }
+}

@@ -1,0 +1,8 @@
+[
+    {
+        "flipbook_texture": "textures/blocks/crystal_ball_anim",
+        "atlas_tile": "crystal_ball",
+        "ticks_per_frame": 15,
+        "frames": [0,1,2]
+    }
+]
