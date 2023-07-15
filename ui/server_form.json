@@ -1,9 +1,5 @@
 {
     "namespace": "server_form",
-    "bgimg": {
-        "type": "image",
-        "texture": "textures/ui/magicbg"
-    },
     "long_form_panel": {
         "modifications": [
             {
